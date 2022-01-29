@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 	/* Check for proper number of command line arguments */
 	if (argc < 2)
 	{
-		fputs("Usage: MD2_Report filename.md2\n\n", stderr);
+		fputs("Usage: MD2Header filename.md2\nFile extension is optional.\n\n", stderr);
 		return EXIT_FAILURE;
 	}
 
